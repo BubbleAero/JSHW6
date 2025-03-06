@@ -3,6 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "cypress:run:firefox": "cypress run --browser firefox",
+    "cypress:run:headed": "cypress run --headed",
+    "cypress:run:headless": "cypress run --headless",
+    "cypress:run:laptop": "cypress run --env viewport=laptop",
+    "cypress:run:mobile": "cypress run --env viewport=mobile",
+    "cypress:open:laptop": "cypress open --env viewport=laptop",
+    "cypress:open:mobile": "cypress open --env viewport=mobile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vika Vika",
